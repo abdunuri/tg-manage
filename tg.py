@@ -4,8 +4,8 @@ from telethon.tl.functions.folders import EditPeerFoldersRequest
 from telethon.tl.types import InputFolderPeer
 import asyncio
 
-API_ID = 20169951
-API_HASH = "19db3ec2444a2325f4a8da7faf5160a2"
+API_ID = int(input("API ID: "))
+API_HASH = input("API HASH: ")
 
 client = TelegramClient("channel_manager", API_ID, API_HASH)
 
